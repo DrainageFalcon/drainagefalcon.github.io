@@ -1,0 +1,51 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    background-image: url("img/bg-lights.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+}
+
+.discord-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #5865F2;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.discord-button img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.discord-button:hover {
+    background-color: #404bcc;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        width: 100%;
+        max-width: 90%;
+        margin-bottom: 100px;
+    }
+}
