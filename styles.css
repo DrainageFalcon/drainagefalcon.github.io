@@ -2,6 +2,8 @@ body,
 html {
     height: 100%;
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .bg {
@@ -9,11 +11,21 @@ html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    flex: 1;
+}
+
+.logo {
+    max-height: 25vh;
+}
+
+.mascot-promo {
+    max-height: 40vh;
 }
 
 h1 {
     font-family: 'Amatic SC', cursive;
     font-weight: 700;
+    font-size: 5vh;
 }
 
 .discord-button {
